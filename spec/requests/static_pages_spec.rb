@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe "Static pages" do
+  let(:base_title) { "Test"}
 
   describe "Home page" do
 
@@ -12,7 +13,7 @@ describe "Static pages" do
     it "should have the right title" do
       visit '/static_pages/home'
       page.should have_selector('title',
-                                :text => "Test | Home")
+                                :text => "#{base_title} | Home")
     end
   end
 
