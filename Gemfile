@@ -31,6 +31,7 @@ group :development, :test do
   gem 'spork'
   gem 'wdm'
   gem 'annotate'
+  gem 'factory_girl_rails'
 end
 
 group :test do

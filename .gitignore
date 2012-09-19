@@ -26,3 +26,5 @@ doc/
 .idea
 bin/*
 *.lock
+/.idea/*
+/.idea
